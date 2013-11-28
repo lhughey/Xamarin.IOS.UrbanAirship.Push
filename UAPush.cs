@@ -244,11 +244,8 @@ namespace Joost.UrbanAirship.Push
 
 					if (push.ContainsKey ("badge")) {
 						int b;
-						if (Int32.TryParse(push["badge"].ToString (), out b)) {
-							UIDevice.ChangeNewKey.InvokeOnMainThread(() => {
-								UIApplication.SharedApplication.ApplicationIconBadgeNumber = b;
-							});
-						}
+						if (Int32.TryParse(push["badge"].ToString (), out b))
+							Util.RunOnUIThread(() => { UIApplication.SharedApplication.ApplicationIconBadgeNumber = b; });
 					}
 				}
 			}
