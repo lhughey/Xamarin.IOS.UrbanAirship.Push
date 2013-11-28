@@ -7,7 +7,7 @@ using MonoTouch.Foundation;
 using MonoTouch.ObjCRuntime;
 using MonoTouch.UIKit;
 
-namespace Joost.UrbanAirship.Push
+namespace Xamarin.iOS.UrbanAirship.Push
 {
 	public class UAPush
 	{

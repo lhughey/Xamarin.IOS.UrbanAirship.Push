@@ -1,13 +1,13 @@
 using System;
 using System.Reflection;
 using System.Diagnostics;
-
-using MonoTouch.UIKit;
 using System.Collections.Generic;
 using System.Linq;
+
+using MonoTouch.UIKit;
 using MonoTouch.Foundation;
 
-namespace Joost.UrbanAirship.Push
+namespace Xamarin.iOS.UrbanAirship.Push
 {
 	public static class Util 
 	{

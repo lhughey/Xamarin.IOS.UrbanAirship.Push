@@ -1,9 +1,10 @@
 using System;
-using MonoTouch.UIKit;
-using MonoTouch.Foundation;
 using System.Collections.Generic;
 
-namespace Joost.UrbanAirship.Push
+using MonoTouch.UIKit;
+using MonoTouch.Foundation;
+
+namespace Xamarin.iOS.UrbanAirship.Push
 {
 	public class UAPushConfig
 	{
